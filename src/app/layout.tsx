@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <>
       <Head>
           <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -43,6 +43,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       {children}
       </body>
-    </html>
+    </>
   );
 }
